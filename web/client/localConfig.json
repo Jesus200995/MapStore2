@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "geoNodeSettings": {
+    "api": {
+      "protocol": "http",
+      "host": "localhost",
+      "port": 8085,
+      "pathname": "/mapstore"
+    }
+  },
+  "catalogs": {
+    "default": {
+      "type": "wms",
+      "url": "http://31.97.8.51:8080/geoserver/ows"
+    }
+  }
+}
+

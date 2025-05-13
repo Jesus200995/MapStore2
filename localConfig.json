@@ -1,0 +1,44 @@
+{
+  "proxyUrl": "proxy/?url=",
+  "theme": "default",
+  "defaultTheme": "default",
+  "mapInfo": {
+    "enabled": true,
+    "infoFormat": "application/json"
+  },
+  "catalog": {
+    "custom": [
+      {
+        "type": "wms",
+        "title": "GeoServer Local",
+        "url": "http://31.97.8.51:8080/geoserver/wms"
+      }
+    ]
+  },
+  "mousePosition": {
+    "enabled": true,
+    "crs": "EPSG:4326",
+    "showCenter": true
+  },
+  "searchOptions": {
+    "services": [
+      {
+        "type": "nominatim",
+        "priority": 1,
+        "label": "OpenStreetMap Nominatim",
+        "url": "https://nominatim.openstreetmap.org/search",
+        "options": {
+          "limit": 5
+        }
+      }
+    ]
+  },
+  "print": {
+    "url": "pdf"
+  },
+  "geoStoreUrl": "rest/geostore/",
+  "initialState": {
+    "defaultStateType": "mobile"
+  },
+  "mapType": "openlayers"
+}
